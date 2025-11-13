@@ -42,3 +42,34 @@ int main() {
 
     return 0;
 }
+
+
+
+
+Algorithm: DFS (Adjacency Matrix)
+
+Step 1: Initialize
+
+Create adjacency matrix graph[MAX][MAX].
+
+Initialize visited[MAX] = 0.
+
+Step 2: Input Graph
+
+Read number of vertices n and edges e.
+
+For each edge (u, v), set graph[u][v] = 1 (and graph[v][u] = 1 for undirected graph).
+
+Step 3: DFS Traversal (Recursive)
+
+Start at vertex v.
+
+Mark v as visited and print it.
+
+For each neighbor i of v:
+
+If graph[v][i] == 1 and visited[i] == 0, recursively call DFS on i.
+
+Step 4: End
+
+DFS completes when all reachable vertices are visited.
