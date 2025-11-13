@@ -44,6 +44,10 @@ int main() {
 
 
 
+
+
+algorithm
+
 Insert
 
 Create a new node
