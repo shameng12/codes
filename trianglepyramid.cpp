@@ -63,47 +63,37 @@ int main() {
 
 
 
-🧮 Algorithm
+⚙️ Algorithm (Simplified)
 
-Step 1: Start the program.
-Step 2: Initialize the variable n = 4 (number of rows fixed).
-Step 3: Declare loop control variables i, j, and space, and a character variable ch.
+Start
 
-Part 1: Right-angle triangle with numbers
+Set n = 4
 
-Step 4:
-  a. Loop i from 1 to n (for each row).
-  b. Inside this loop, loop j from 1 to i and print j.
-  c. Move to the next line after each row.
+Right-angle triangle with numbers:
 
-Part 2: Diamond with numbers
+For each row i = 1 to n
 
-Step 5: Print the upper half of the diamond
-  a. Loop i from 1 to n.
-  b. Print spaces (n - i times).
-  c. Print numbers from 1 to i.
-  d. Move to the next line.
+Print numbers from 1 to i
 
-Step 6: Print the lower half of the diamond
-  a. Loop i from n - 1 down to 1.
-  b. Print spaces (n - i times).
-  c. Print numbers from 1 to i.
-  d. Move to the next line.
+Diamond with numbers:
 
-Part 3: Pyramid with asterisks
+For i = 1 to n, print spaces and then numbers 1 to i (upper part)
 
-Step 7:
-  a. Loop i from 1 to n.
-  b. Print spaces (n - i times).
-  c. Print 2*i - 1 asterisks (*).
-  d. Move to the next line.
+For i = n-1 down to 1, print spaces and then numbers 1 to i (lower part)
 
-Part 4: Pyramid with alphabets
+Pyramid with asterisks:
 
-Step 8:
-  a. Loop i from 1 to n.
-  b. Print spaces (n - i times).
-  c. Initialize ch = 'A'.
-  d. Print increasing alphabets from 'A' up to the ith character.
-  e. Then print decreasing alphabets from the previous character back to 'A'.
-  f. Move to the next line.
+For each row i = 1 to n
+
+Print spaces and then 2*i - 1 stars (*)
+
+Pyramid with alphabets:
+
+For each row i = 1 to n
+
+Print spaces, then increasing alphabets from A to i
+
+Then print decreasing alphabets back to A
+
+Stop
+
