@@ -40,3 +40,35 @@ int main() {
     display();   // 20 10
     return 0;
 }
+
+
+
+
+Insert
+
+Create a new node
+
+Set new node’s data
+
+Point new node → head
+
+Update head = new node
+
+2. Delete
+
+If head is NULL → List empty
+
+Else save head in temp
+
+Move head to next node
+
+Free temp
+
+3. Display
+
+Start from head
+
+While current node is not NULL
+ a. Print its data
+ b. Move to next node
+
